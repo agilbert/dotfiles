@@ -12,6 +12,9 @@ launchctl load ~/Library/LaunchAgents/homebrew.mxcl.mysql.plist
 # Set the root mysql password
 mysqladmin -u root password "root"
 
+# We keep a copy of symfony1.4 in /opt
+
+
 cat <<EOF
 #--------------------------------- MANUAL STEPS FROM HERE ON OUT ---------------------------------#
 #
