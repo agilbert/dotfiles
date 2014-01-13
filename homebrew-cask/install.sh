@@ -1,4 +1,4 @@
-# Hook up brew cask 
+# Hook up brew cask
 brew tap phinze/homebrew-cask
 brew tap caskroom/versions
 brew install brew-cask
@@ -17,6 +17,7 @@ brew cask install evernote
 brew cask install divvy
 
 # Extra stuff
+brew cask install rdio
 brew cask install fluid
 brew cask install arq
 brew cask install vlc
