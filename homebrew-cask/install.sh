@@ -18,6 +18,7 @@ brew cask install divvy
 
 # Extra stuff
 brew cask install rdio
+brew cask install dash
 brew cask install fluid
 brew cask install arq
 brew cask install vlc
