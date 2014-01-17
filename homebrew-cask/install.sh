@@ -15,6 +15,7 @@ brew cask install onepassword
 brew cask install dropbox
 brew cask install evernote
 brew cask install divvy
+brew cask install sequel-pro
 
 # Extra stuff
 brew cask install rdio
