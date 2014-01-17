@@ -22,6 +22,7 @@ mysqladmin -u root password "root"
 brew tap homebrew/dupes
 brew tap josegonzalez/homebrew-php
 brew install php53 --with-mysql
+brew install mcrypt php53-mcrypt
 
 # Fix PEAR permissions
 chmod -R ug+w `brew --prefix php53`/lib/php
@@ -41,9 +42,6 @@ brew install php53-intl php53-apc php53-mongo php53-memcache
 # Link installed PEAR executables into the $PATH
 # ... You could also add "`brew --prefix php54`/bin" to your $PATH
 brew unlink php53; brew link php53
-
-# Set "PSR-2" as your default coding standard
-phpcs --config-set default_standard PSR2
 
 cat <<EOF
 #--------------------------------- MANUAL STEPS FROM HERE ON OUT ---------------------------------#
