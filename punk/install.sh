@@ -48,7 +48,7 @@ phpcs --config-set default_standard PSR2
 cat <<EOF
 #--------------------------------- MANUAL STEPS FROM HERE ON OUT ---------------------------------#
 #
-# 1. sudo cp ~/.dotfiles/punk/php.ini /etc/php.ini
+# 1. Edit /usr/local/etc/php/5.3/php.ini and udpate with the contents of ~/.dotfiles/punk/php.ini
 #
 # 2. Edit /etc/apache2/httpd.conf and update with the contents of ~/.dotfiles/punk/httpd.conf
 #
